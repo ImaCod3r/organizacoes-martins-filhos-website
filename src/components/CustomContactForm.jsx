@@ -28,6 +28,9 @@ const CustomContactForm =  () => {
                     required 
                 />
 
+                <label htmlFor="message">Mensagem</label>
+                <textarea name="message" id="message" placeholder="Diga-nos o que precisa..."></textarea>
+
                 <button type="submit">Enviar</button>
         </form>
     )
