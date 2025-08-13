@@ -32,7 +32,7 @@ const CustomNavBar = () => {
                 <ul className={`menu-links ${open ? "open" : ""}`}>
                     {open && (
                         <div className="menu-header">
-                            <img src="./src/assets/logo.jpg" alt="logo" />
+                            <img src={new URL("../assets/logo.jpg", import.meta.url)} alt="logo" />
                             <button onClick={() => setOpen(false)}>
                                 <FontAwesomeIcon icon={faClose} />
                             </button>

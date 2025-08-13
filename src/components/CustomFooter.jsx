@@ -11,7 +11,7 @@ const CustomFooter = () => {
         <footer>
             <div className="footer-wrapper">
                 <div>
-                    <img src="./src/assets/logo.jpg" alt="logo" />
+                    <img src={new URL("../assets/logo.jpg", import.meta.url)} alt="logo" />
                     <p>Cuidando do presente para garantir o futuro.</p>
 
                     <button className="get-order-button">
