@@ -6,11 +6,12 @@ const SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID;
 
 emailjs.init(PUBLIC_KEY);
 
-export async function sendEmail(name, message) {
+export async function sendEmail(name, email, message) {
     try {
         await emailjs.send(SERVICE_ID, TEMPLATE_ID, {
             name,
-            message
+            email,
+            message,
         })
     } catch(error) {
         alert("Não foi possivel enviar formulário.")

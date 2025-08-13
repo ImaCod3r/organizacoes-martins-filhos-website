@@ -52,8 +52,7 @@ const CustomNavBar = () => {
                         <Link to="portfolio" smooth={true} duration={500} onClick={() => setOpen(false)}>Portfólio</Link>
                     </li>
                     <li>
-                        <Link to="contacts" smooth={true} duration={500}>Contato</Link>
-
+                        <Link to="contacts" smooth={true} duration={500} onClick={() => setOpen(false)}>Contacto</Link>
                     </li>
                 </ul>
             </nav>

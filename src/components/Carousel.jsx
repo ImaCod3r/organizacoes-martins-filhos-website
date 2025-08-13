@@ -28,7 +28,7 @@ const DEFAULT_ITEMS = [
   },
   {
     title: "Higiene e frescor em cada detalhe.",
-    description: "Garantimos banheiros limpos, desinfetados e livres de odores, proporcionando um ambiente seguro, agradável e com padrão de excelência.",
+    description: "Garantimos casas de banho limpas, totalmente desinfetadas e livres de odores, proporcionando um ambiente seguro, agradável e com padrão de excelência.",
     id: 5,
     image: "19.jpg"
   },

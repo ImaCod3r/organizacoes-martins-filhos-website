@@ -107,7 +107,8 @@ function App() {
               <div className="text-wrapper">
 
                 <h2>Fale conosco</h2>
-                <p>Estamos prontos para atender você, solicite um orçamento. Basta preencher os campos abaixo para receber mais informações.</p>
+                <p>Estamos prontos para o atender. Diga-nos do que precisa e teremos todo o gosto em ajudar!
+Preencha os campos abaixo e a nossa equipa entrará em contacto consigo com todas as informações necessárias.</p>
               </div>
               <CustomContactForm />
             </ScrollAnimRepeat>

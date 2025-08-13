@@ -51,7 +51,7 @@ const CustomFooter = () => {
 
                     <ul>
                         <li>
-                            <a href="/">Página Inicial</a>
+                            <a href="#home">Página Inicial</a>
                         </li>
 
                         <li>
@@ -64,6 +64,10 @@ const CustomFooter = () => {
 
                         <li>
                             <a href="#portfolio">Portfolio</a>
+                        </li>
+
+                        <li>
+                            <a href="#contacts">Contacto</a>
                         </li>
 
                     </ul>

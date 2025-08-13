@@ -4,9 +4,8 @@ import { sendEmail } from "../services/email.js";
 const CustomContactForm =  () => {
     return (
         <form className="contact-form" onSubmit={(e) => {
-            const { name, email } = e.target.elements;
-            const message = `Olá, mando este email a fim solicitar um orçamento. Aguardo uma resposta no meu email ${email.value}`;
-            sendEmail(name.value, message).then(() => {
+            const { name, message } = e.target.elements;
+            sendEmail(name.value, email.value, message.value).then(() => {
                 console.log("Formulario submetido com sucesso!");
             });
         }}>
