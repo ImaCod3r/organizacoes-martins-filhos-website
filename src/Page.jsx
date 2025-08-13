@@ -28,9 +28,9 @@ function App() {
           <ScrollAnimRepeat>
             <h2>Sobre Nós</h2>
 
-            <p>Somos a M.C. Martins & Filhos, Lda, uma empresa angolana com mais de uma década de experiência,
-              especializada em serviços de higiene e conservação.
-              Nossa missão é oferecer soluções personalizadas que superam expectativas. </p>
+            <p>A M.C. Martins & Filhos, Lda é uma empresa angolana especializada em higiene, limpeza, jardinagem, desinfestação e serviços personalizados.
+              Com mais de uma década de experiência e mais de 1.500 trabalhos realizados, atendemos clientes corporativos, instituições públicas e residências em Cabinda e outras regiões do país.
+              Nossa história começou em 2011 como empresa individual Organizações MCM. Em 2018, ampliamos nossas operações e, em 2023, passamos para o regime coletivo com a nova denominação atual. Essa evolução representa nosso compromisso contínuo com a qualidade, inovação e profissionalismo.</p>
           </ScrollAnimRepeat>
 
           <ScrollAnimRepeat>
@@ -92,10 +92,10 @@ function App() {
           <h2>Clientes Satisfeitos</h2>
           <ScrollAnimRepeat>
             <div>
-              <img src="./assets/cabship.jpg" alt="Cabship" />
-              <img src="./assets/apolonia-complexus.jpg" alt="Apolonia Complexus" />
-              <img src="./assets/petro-ngoio.jpg" alt="Petro Ngoio" />
-              <img src="./assets/porto-de-cabinda.jpg" alt="Porto de Cabinda" />
+              <img src="src/assets/cabship.jpg" alt="Cabship" />
+              <img src="src/assets/apolonia-complexus.jpg" alt="Apolonia Complexus" />
+              <img src="src/assets/petro-ngoio.jpg" alt="Petro Ngoio" />
+              <img src="src/assets/porto-de-cabinda.jpg" alt="Porto de Cabinda" />
             </div>
           </ScrollAnimRepeat>
         </section>
@@ -109,7 +109,7 @@ function App() {
                 <h2>Fale conosco</h2>
                 <p>Estamos prontos para atender você, solicite um orçamento. Basta preencher os campos abaixo para receber mais informações.</p>
               </div>
-            <CustomContactForm />
+              <CustomContactForm />
             </ScrollAnimRepeat>
 
             <div className="text-wrapper">

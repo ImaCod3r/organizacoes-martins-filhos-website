@@ -28,7 +28,7 @@ const CustomDynamicHero = () => {
     }, [images, index]);
 
     return (
-        <div className="dynamic-hero">
+        <div className="dynamic-hero" id="services">
             <div className="text-wrapper">
                 <h2>Cuidando do presente <br /> para garantir o futuro.</h2>
 

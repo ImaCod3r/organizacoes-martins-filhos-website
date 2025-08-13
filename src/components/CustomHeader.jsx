@@ -18,7 +18,7 @@ const CustomHeader = () => {
             </div>
             <header className="custom-header">
                 <div style={{ display: "flex", alignItems: "center" }}>
-                    {/* <img src="./vite.svg" alt="Logo M" /> */}
+                    <img src="./favicon.png" alt="Logo" style={{ width: 50, height: 50}} />
                     <a href="/">M.C Martins & Filhos</a>
                 </div>
 

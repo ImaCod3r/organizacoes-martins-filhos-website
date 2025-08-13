@@ -6,31 +6,31 @@ const DEFAULT_ITEMS = [
     title: "O conforto de um lar limpo e organizado.",
     description: "Cuidamos de cada detalhe da limpeza da sua casa, proporcionando mais tempo para você aproveitar o que realmente importa.",
     id: 1,
-    image: "./../assets/12.jpg"
+    image: "12.jpg"
   },
   {
     title: "Ambientes corporativos impecáveis para produtividade e bem-estar.",
     description: "Transformamos o seu espaço de trabalho com uma limpeza completa, utilizando produtos de alta qualidade e equipe certificada.",
     id: 2,
-    image: "./../assets/16.jpg"
+    image: "16.jpg"
   },
   {
     title: "Mais praticidade para o seu dia a dia.",
     description: "Oferecemos soluções sob medida, desde fornecimento de pessoal até serviços de catering, sempre com profissionalismo e pontualidade.",
     id: 3,
-    image: "./../assets/17.jpg"
+    image: "17.jpg"
   },
   {
     title: "Proteção contra pragas para sua tranquilidade.",
     description: "Aplicamos métodos modernos e seguros para eliminar pragas, preservando a saúde e segurança do seu espaço.",
     id: 4,
-    image: "./../assets/20.jpg"
+    image: "20.jpg"
   },
   {
     title: "Higiene e frescor em cada detalhe.",
     description: "Garantimos banheiros limpos, desinfetados e livres de odores, proporcionando um ambiente seguro, agradável e com padrão de excelência.",
     id: 5,
-    image: "./../assets/19.jpg"
+    image: "19.jpg"
   },
 ];
 
@@ -180,7 +180,7 @@ export default function Carousel({
               }}
               transition={effectiveTransition}
             >
-              <img src={new URL(item.image, import.meta.url)} alt={item.title} />
+              <img src={new URL(`../assets/${item.image}`, import.meta.url)} alt={item.title} />
               <div className="carousel-item-content">
                 <div className="carousel-item-title">{item.title}</div>
                 <p className="carousel-item-description">{item.description}</p>
