@@ -92,10 +92,10 @@ function App() {
           <h2>Clientes Satisfeitos</h2>
           <ScrollAnimRepeat>
             <div>
-              <img src="src/assets/cabship.jpg" alt="Cabship" />
-              <img src="src/assets/apolonia-complexus.jpg" alt="Apolonia Complexus" />
-              <img src="src/assets/petro-ngoio.jpg" alt="Petro Ngoio" />
-              <img src="src/assets/porto-de-cabinda.jpg" alt="Porto de Cabinda" />
+              <img src={new URL("assets/cabship.jpg", import.meta.url)} alt="Cabship" />
+              <img src={new URL("assets/apolonia-complexus.jpg", import.meta.url)}  alt="Apolonia Complexus" />
+              <img src={new URL("assets/petro-ngoio.jpg", import.meta.url)}  alt="Petro Ngoio" />
+              <img src={new URL("assets/porto-de-cabinda.jpg", import.meta.url)} alt="Porto de Cabinda" />
             </div>
           </ScrollAnimRepeat>
         </section>
