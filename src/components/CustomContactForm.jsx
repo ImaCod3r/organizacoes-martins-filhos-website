@@ -1,7 +1,7 @@
 import React from "react";
-import { sendEmail } from "../services/email.js";
+import { sendEmail } from "../lib/email.js";
 
-const CustomContactForm =  () => {
+const CustomContactForm = () => {
     return (
         <form className="contact-form" onSubmit={(e) => {
             const { name, message } = e.target.elements;
@@ -9,28 +9,28 @@ const CustomContactForm =  () => {
                 console.log("Formulario submetido com sucesso!");
             });
         }}>
-                <label htmlFor="name">Nome</label>
-                <input 
-                    type="text" 
-                    placeholder="Seu nome completo"
-                    id="name"
-                    name="name"
-                    required
-                />
+            <label htmlFor="name">Nome</label>
+            <input
+                type="text"
+                placeholder="Seu nome completo"
+                id="name"
+                name="name"
+                required
+            />
 
-                <label htmlFor="email">Endereço de email</label>
-                 <input 
-                    type="email"
-                    placeholder="seuemail@provedor.com"
-                    id="email"
-                    name="email"
-                    required 
-                />
+            <label htmlFor="email">Endereço de email</label>
+            <input
+                type="email"
+                placeholder="seuemail@provedor.com"
+                id="email"
+                name="email"
+                required
+            />
 
-                <label htmlFor="message">Mensagem</label>
-                <textarea name="message" id="message" placeholder="Diga-nos o que precisa..."></textarea>
+            <label htmlFor="message">Mensagem</label>
+            <textarea name="message" id="message" placeholder="Diga-nos o que precisa..."></textarea>
 
-                <button type="submit">Enviar</button>
+            <button type="submit">Enviar</button>
         </form>
     )
 }

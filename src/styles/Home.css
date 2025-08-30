@@ -1,0 +1,132 @@
+.dynamic-hero {
+    width: 100%;
+    height: 50rem;
+
+    position: relative;
+}
+
+.dynamic-hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(.3rem);
+}
+
+.dynamic-hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.dynamic-hero .text-wrapper {
+    position: absolute;
+    top: 50%;
+    width: 80%;
+    margin: 0 10%;
+    transform: translateY(-50%);
+    color: white;
+
+    font-family: var(--secondary-font);
+}
+
+.text-wrapper h2 {
+    font-size: 5.6rem;
+    font-weight: 600;
+    line-height: 5rem;
+    color: #fff;
+}
+
+.text-wrapper p {
+    font-size: 2.4rem;
+    line-height: 3rem;
+    margin: 2.2rem 0;
+}
+
+.get-order-button {
+    background-color: var(--primary-color);
+    padding: 1.5rem 4rem;
+
+    color: #fff;
+    font-family: var(--primary-font);
+    font-size: 2rem;
+    font-weight: 500;
+
+    cursor: pointer;
+    border-radius: .8rem;
+    border: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: .4s;
+}
+
+.get-order-button:hover {
+    background-color: #f8f9fa;
+    color: var(--primary-color);
+    opacity: .8;
+}
+
+.scape-box {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    height: var(--scape-box-height);
+    padding: 0 2rem;
+
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10.8px);
+    -webkit-backdrop-filter: blur(10.8px);
+    border: 1px solid rgba(255, 255, 255, 0.64);
+    border-radius: 1.6rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box-card {
+    padding: 1.5rem;
+    max-width: 33%;
+}
+
+.box-card .title {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    margin-bottom: 1.5rem;
+}
+
+.box-card .title h2 {
+    font-family: var(--primary-font);
+    font-size: 2.4rem;
+    color: #000;
+}
+
+.box-card p {
+    font-family: var(--secondary-font);
+    font-size: 1.8rem;
+    color: var(--gray);
+    margin-top: .5rem;
+}
+
+.home {
+    width: 80%;
+    margin: calc(var(--scape-box-height) + (var(--scape-box-height) * 10) / 100) 10% 3.2rem;
+}
+
+.home .text-wrapper h2 {
+    color: #000;
+    font-size: 2.8rem;
+    line-height: 2rem;
+}
+
+.home .text-wrapper p {
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+}

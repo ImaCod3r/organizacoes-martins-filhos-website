@@ -1,6 +1,8 @@
 import { useEffect, useState, useRef } from "react";
 import { motion, useMotionValue, useTransform } from "motion/react";
 
+import "../styles/carousel.css";
+
 const DEFAULT_ITEMS = [
   {
     title: "O conforto de um lar limpo e organizado.",

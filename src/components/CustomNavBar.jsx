@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Link } from "react-scroll";
+import { Link } from "react-router-dom";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faClose } from "@fortawesome/free-solid-svg-icons";
@@ -40,19 +40,19 @@ const CustomNavBar = () => {
                     )}
 
                     <li>
-                        <Link to="home" smooth={true} duration={500} onClick={() => setOpen(false)}>Início</Link>
+                        <Link to="/" onClick={() => setOpen(false)}>Início</Link>
                     </li>
                     <li>
-                        <Link to="services" smooth={true} duration={500} onClick={() => setOpen(false)}>Serviços</Link>
+                        <Link to="/servicos">Serviços</Link>
                     </li>
                     <li>
-                        <Link to="about" smooth={true} duration={500} onClick={() => setOpen(false)}>Sobre</Link>
+                        <Link to="/sobre">Sobre</Link>
                     </li>
                     <li>
-                        <Link to="portfolio" smooth={true} duration={500} onClick={() => setOpen(false)}>Portfólio</Link>
+                        <Link to="/portfolio">Portfólio</Link>
                     </li>
                     <li>
-                        <Link to="contacts" smooth={true} duration={500} onClick={() => setOpen(false)}>Contacto</Link>
+                        <Link to="/contactos">Contacto</Link>
                     </li>
                 </ul>
             </nav>

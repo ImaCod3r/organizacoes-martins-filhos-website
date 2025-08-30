@@ -1,0 +1,122 @@
+.about {
+    width: 80%;
+    padding: 4rem 0;
+    margin: 0 10%;
+}
+
+.about h2 {
+    font-family: var(--primary-font);
+    font-size: 2.8rem;
+    color: #000;
+    margin-bottom: 1.5rem;
+}
+
+.about p {
+    font-family: var(--secondary-font);
+    font-size: 1.8rem;
+    color: #000;
+    line-height: 2.4rem;
+}
+
+.card-wrapper {
+    margin-top: 4rem;
+
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.info-card {
+    background: rgba(255, 255, 255, 0.03);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10.8px);
+    backdrop-filter: blur(10.8px);
+    border: 1px solid rgba(255, 255, 255, 0.64);
+
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+
+    padding: 1.8rem;
+
+    width: 33%;
+    border-radius: 1.6rem;
+}
+
+.info-card h3 {
+    font-family: var(--primary-font);
+    font-size: 2.2rem;
+    color: #000;
+}
+
+.diffs {
+    margin-top: 10rem;
+}
+
+.diffs-wrapper {
+    margin-top: 3.2rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 1rem;
+}
+
+.diff {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.2rem;
+
+    width: 25rem;
+}
+
+.diff span {
+    font-weight: 600;
+    font-size: 4.8rem;
+    font-family: var(--secondary-font);
+
+    display: flex;
+    align-items: center;
+    color: var(--primary-color);
+}
+
+.diff p {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.location-wrapper {
+    margin-top: 10rem;
+}
+
+.location-wrapper h3 {
+    font-family: var(--primary-font);
+    font-size: 3.2rem;
+    color: #000;
+}
+
+.location-wrapper .text-wrapper p {
+    margin: 1rem 0;
+}
+
+@media screen and (max-width: 768px) {
+    .about {
+        .card-wrapper {
+            flex-direction: column;
+            align-items: center;
+            gap: 2rem;
+        }
+
+        .info-card {
+            width: 100%;
+        }
+
+        .diffs-wrapper {
+            flex-direction: column;
+            align-items: center;
+            gap: 3.2rem;
+        }
+    }
+}
