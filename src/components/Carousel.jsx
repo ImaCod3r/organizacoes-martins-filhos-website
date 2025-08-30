@@ -1,7 +1,7 @@
 import { useEffect, useState, useRef } from "react";
 import { motion, useMotionValue, useTransform } from "motion/react";
 
-import "../styles/carousel.css";
+import "../styles/Carousel.css";
 
 const DEFAULT_ITEMS = [
   {
