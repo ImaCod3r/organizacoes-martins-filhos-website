@@ -57,23 +57,23 @@ const CustomFooter = () => {
 
                     <ul>
                         <li>
-                            <a href="/">Página Inicial</a>
+                            <Link to="/">Página Inicial</Link>
                         </li>
 
                         <li>
-                            <a href="/servicos">Serviços</a>
+                            <Link to="/servicos">Serviços</Link>
                         </li>
 
                         <li>
-                            <a href="/sobre">Sobre nós</a>
+                            <Link to="/sobre">Sobre nós</Link>
                         </li>
 
                         <li>
-                            <a href="/portfolio">Portfolio</a>
+                            <Link to="/portfolio">Portfolio</Link>
                         </li>
 
                         <li>
-                            <a href="/contactos">Contactos</a>
+                            <Link to="/contactos">Contactos</Link>
                         </li>
 
                     </ul>
