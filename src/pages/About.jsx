@@ -17,7 +17,7 @@ function About() {
 
                 <p>A M.C. Martins & Filhos, Lda é uma empresa angolana especializada em higiene, limpeza, jardinagem, desinfestação e serviços personalizados.
                     Com mais de uma década de experiência e mais de 1.500 trabalhos realizados, atendemos clientes corporativos, instituições públicas e residências em Cabinda e outras regiões do país.
-                    Nossa história começou em 2011 como empresa individual Organizações MCM. Em 2018, ampliamos nossas operações e, em 2023, passamos para o regime coletivo com a nova denominação atual. Essa evolução representa nosso compromisso contínuo com a qualidade, inovação e profissionalismo.</p>
+                    Nossa história começou em 2011 como empresa individual Organizações MCM. Em 2018, ampliamos nossas operações e, em 2023, passamos para o regime coletivo com a nova denominação actual. Essa evolução representa nosso compromisso contínuo com a qualidade, inovação e profissionalismo.</p>
             </ScrollAnimRepeat>
 
             <ScrollAnimRepeat>
