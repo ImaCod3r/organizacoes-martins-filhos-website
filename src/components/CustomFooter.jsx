@@ -22,7 +22,7 @@ const CustomFooter = () => {
                 </div>
 
                 <div>
-                    <h3>Informações de contato</h3>
+                    <h3>Informações de contacto</h3>
 
                     <ul>
                         <li>
