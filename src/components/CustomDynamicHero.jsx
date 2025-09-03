@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import CustomScapeBox from "./CustomScapeBox.jsx";
-import { Link } from "react-scroll";
+import { Link } from "react-router-dom";
 
 const CustomDynamicHero = () => {
     const [index, setIndex] = useState(0);
@@ -35,7 +35,7 @@ const CustomDynamicHero = () => {
                 <p>Serviços de limpeza, jardinagem e desinfestação com excelência, pontualidade e profissionalismo.</p>
 
                 <button className="get-order-button">
-                    <Link to="contacts" smooth={true} duration={500}>
+                    <Link to="/contactos">
                         Solicitar orçamento →
                     </Link>
                 </button>
