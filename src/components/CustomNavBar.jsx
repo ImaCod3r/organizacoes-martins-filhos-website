@@ -43,16 +43,16 @@ const CustomNavBar = () => {
                         <Link to="/" onClick={() => setOpen(false)}>Início</Link>
                     </li>
                     <li>
-                        <Link to="/servicos">Serviços</Link>
+                        <Link to="/servicos" onClick={() => setOpen(false)}>Serviços</Link>
                     </li>
                     <li>
-                        <Link to="/sobre">Sobre</Link>
+                        <Link to="/sobre" onClick={() => setOpen(false)}>Sobre</Link>
                     </li>
                     <li>
-                        <Link to="/portfolio">Portfólio</Link>
+                        <Link to="/portfolio" onClick={() => setOpen(false)}>Portfólio</Link>
                     </li>
                     <li>
-                        <Link to="/contactos">Contactos</Link>
+                        <Link to="/contactos" onClick={() => setOpen(false)}>Contactos</Link>
                     </li>
                 </ul>
             </nav>

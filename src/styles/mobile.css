@@ -26,7 +26,7 @@
     }
 
     .dynamic-hero {
-        .text-wrapper  {
+        .text-wrapper {
             width: 100%;
 
             text-align: center;
@@ -83,12 +83,13 @@
 
     .carousel-container {
         width: 280px;
+
         /* margin: 0 auto; */
+        .carousel-item-content {
+            top: 50%;
+        }
     }
 
-    .carousel-item-content {
-        top: 60%;
-    }
 
     .costumers {
         h2 {
