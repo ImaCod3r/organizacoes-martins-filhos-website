@@ -33,7 +33,7 @@ function About() {
                     />
 
                     <CustomInfoCard
-                        title="Objetivos"
+                        title="Objectivos"
                         body="Atender as reais necessidades dos clientes, oferecendo soluções viáveis e de qualidade superior"
                     />
                 </div>

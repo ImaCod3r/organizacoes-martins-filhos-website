@@ -1,9 +1,9 @@
 import React from "react";
-import { Link } from "react-scroll";
+import { Link } from "react-router-dom";
 
 // Icons
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
+import { faWhatsapp, faFacebook } from "@fortawesome/free-brands-svg-icons";
 import { faPhone, faMailBulk } from "@fortawesome/free-solid-svg-icons";
 
 const CustomFooter = () => {
@@ -12,10 +12,10 @@ const CustomFooter = () => {
             <div className="footer-wrapper">
                 <div>
                     <img src={new URL("../assets/logo.jpg", import.meta.url)} alt="logo" />
-                    <p>Cuidando do presente para garantir o futuro.</p>
+                    <p>Cuidamos do presente para garantir o futuro.</p>
 
                     <button className="get-order-button">
-                        <Link to="contacts" smooth={true} duration={500}>
+                        <Link to="contactos">
                             Solicitar orçamento →
                         </Link>
                     </button>
@@ -43,6 +43,12 @@ const CustomFooter = () => {
                                 organizacoes.mcm@gmail.com
                             </a>
                         </li>
+                        <li>
+                            <a href="https://www.facebook.com/share/19dnp948kL/" target="_blank">
+                                <FontAwesomeIcon icon={faFacebook} size="2x" />
+                                M.C Martins & Filhos, Lda
+                            </a>
+                        </li>
                     </ul>
                 </div>
 
@@ -51,23 +57,23 @@ const CustomFooter = () => {
 
                     <ul>
                         <li>
-                            <a href="#home">Página Inicial</a>
+                            <a href="/">Página Inicial</a>
                         </li>
 
                         <li>
-                            <a href="#services">Serviços</a>
+                            <a href="/servicos">Serviços</a>
                         </li>
 
                         <li>
-                            <a href="#about">Sobre nós</a>
+                            <a href="/sobre">Sobre nós</a>
                         </li>
 
                         <li>
-                            <a href="#portfolio">Portfolio</a>
+                            <a href="/portfolio">Portfolio</a>
                         </li>
 
                         <li>
-                            <a href="#contacts">Contacto</a>
+                            <a href="/contactos">Contactos</a>
                         </li>
 
                     </ul>

@@ -52,7 +52,7 @@ const CustomNavBar = () => {
                         <Link to="/portfolio">Portfólio</Link>
                     </li>
                     <li>
-                        <Link to="/contactos">Contacto</Link>
+                        <Link to="/contactos">Contactos</Link>
                     </li>
                 </ul>
             </nav>

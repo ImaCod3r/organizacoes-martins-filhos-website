@@ -1,5 +1,3 @@
-import React from "react";
-
 const CustomInfoCard = ({ title, body }) => {
     return (
         <div className="info-card">

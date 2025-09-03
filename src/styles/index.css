@@ -26,7 +26,11 @@ body {
 }
 
 a {
-  cursor: pointer;
+  text-decoration: none;
+}
+
+.get-order-button a {
+  color: #fff;
 }
 
 h2 {
@@ -74,6 +78,7 @@ span {
   text-decoration: none;
   color: var(--primary-color);
   margin-left: 1rem;
+  cursor: pointer;
 }
 
 .menu {

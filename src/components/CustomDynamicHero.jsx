@@ -30,7 +30,7 @@ const CustomDynamicHero = () => {
     return (
         <div className="dynamic-hero">
             <div className="text-wrapper">
-                <h2>Cuidando do presente <br /> para garantir o futuro.</h2>
+                <h2>Cuidamos do presente <br /> para garantir o futuro.</h2>
 
                 <p>Serviços de limpeza, jardinagem e desinfestação com excelência, pontualidade e profissionalismo.</p>
 
