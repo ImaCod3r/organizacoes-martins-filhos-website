@@ -2,10 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 // Components
 import CustomHeader from './components/CustomHeader.jsx';
-import CustomDynamicHero from './components/CustomDynamicHero.jsx';
-import CustomContactForm from "./components/CustomContactForm.jsx";
 import CustomFooter from './components/CustomFooter.jsx';
-import ScrollAnimRepeat from './components/ScrollAnim.jsx';
 
 // Pages
 import Home from './pages/Home.jsx';

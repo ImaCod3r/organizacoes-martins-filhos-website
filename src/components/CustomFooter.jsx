@@ -16,7 +16,7 @@ const CustomFooter = () => {
 
                     <button className="get-order-button">
                         <Link to="contactos">
-                            Solicitar orçamento →
+                            Entre em contacto →
                         </Link>
                     </button>
                 </div>
