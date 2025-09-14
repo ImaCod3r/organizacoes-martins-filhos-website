@@ -1,9 +1,8 @@
-import React from "react";
 import { Link } from "react-router-dom";
 
 // Icons
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faWhatsapp, faFacebook } from "@fortawesome/free-brands-svg-icons";
+import { faWhatsapp, faFacebook, faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { faPhone, faMailBulk } from "@fortawesome/free-solid-svg-icons";
 
 const CustomFooter = () => {
@@ -26,13 +25,13 @@ const CustomFooter = () => {
 
                     <ul>
                         <li>
-                            <a href="wa.me/244924241280">
+                            <a href="https://api.whatsapp.com/send?phone=244924241280&text=Olá!" target="_blank">
                                 <FontAwesomeIcon icon={faPhone} size="2x" />
                                 +244 924241280
                             </a>
                         </li>
                         <li>
-                            <a href="wa.me/+244924241280" target="_blank">
+                            <a href="https://api.whatsapp.com/send?phone=244924241280&text=Olá!" target="_blank">
                                 <FontAwesomeIcon icon={faWhatsapp} size="2x" />
                                 +244 924241280
                             </a>
@@ -47,6 +46,12 @@ const CustomFooter = () => {
                             <a href="https://www.facebook.com/share/19dnp948kL/" target="_blank">
                                 <FontAwesomeIcon icon={faFacebook} size="2x" />
                                 M.C Martins & Filhos, Lda
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/mc_martins_filhoslda?igsh=OTZncmV2cWFvejVm" target="_blank">
+                                <FontAwesomeIcon icon={faInstagram} size="2x" />
+                                @mc_martins_filhoslda
                             </a>
                         </li>
                     </ul>
